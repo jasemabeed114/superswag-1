@@ -8,5 +8,5 @@ var prod = {
 
 var config = _.merge({}, require('./base'), prod);
 
-var configurator = heroin(process.env.HEROKU_API_TOKEN, {debug);
+var configurator = heroin(process.env.HEROKU_API_TOKEN);
 configurator(config);
