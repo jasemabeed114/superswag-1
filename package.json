@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "mocha",
-    "test:xunit":"npm run test -- --reporter xunit",
+    "test:xunit": "npm run test -- --reporter xunit",
     "lint": "jshint --exclude=node_modules/** **.js"
   },
   "author": "",
@@ -17,6 +17,7 @@
     "mongodb": "^2.1.7"
   },
   "devDependencies": {
+    "heroin-js": "^1.5.0",
     "jshint": "^2.9.1",
     "mocha": "^2.4.5",
     "supertest": "^1.2.0"
